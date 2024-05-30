@@ -18,4 +18,12 @@ export class CriarPensamentosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  criarPensamento(){
+    alert("Pensamento criado com sucesso!")
+  }
+
+  limpaFormulario(){
+    alert("Limpei o formulário!")
+  }
+
 }
