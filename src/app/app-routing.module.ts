@@ -6,7 +6,7 @@ import { ListarPensamentosComponent } from './components/pensamentos/listar-pens
 const routes: Routes = [
   {
     path:'',
-    redirectTo: 'listarPensamento',
+    redirectTo: 'listarPensamentos',
     pathMatch:'full'
   },
   {
